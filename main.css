@@ -14,6 +14,39 @@
         font-weight: 400;
         font-size: 1.95vw;
     }
+
+/*heading rainbow*/
+    .header span:nth-child(1):hover{
+        color: #D7010D;
+    }
+    .header span:nth-child(2):hover{
+        color: #D57C3A;
+    }
+    .header span:nth-child(3):hover{
+        color: #E7C15C;
+    }
+    .header span:nth-child(4):hover{
+        color: #62834C;
+    }
+    .header span:nth-child(5):hover{
+        color: #788DAC;
+    }
+    .header span:nth-child(6):hover{
+        color: #11395A;
+    }
+    .header span:nth-child(7):hover{
+        color: #D7010D;
+    }
+    .header span:nth-child(8):hover{
+        color: #D57C3A;
+    }
+    .header span:nth-child(9):hover{
+        color: #E7C15C;
+    }
+    .header span:nth-child(10):hover{
+        color: #62834C;
+    }
+
 /* mouse */
     #circularcursor {
         background-color: plum;
@@ -45,6 +78,7 @@
         height: fit-content;
         margin-left: 2vw;
     }
+
 /* laying out hero */
     .heroblock {
         width: 40vw;
@@ -119,6 +153,11 @@
         border-radius: 25px;
         margin-left: 3vw;
     }
+    .project-img:hover {
+        -webkit-box-shadow: 6px 6px 0px 0px plum;
+        -moz-box-shadow: 6px 6px 0px 0px plum;
+        box-shadow: 6px 6px 0px 0px plum;
+    }
     .project-text {
         display: flex;
         width: 35vw;
@@ -128,6 +167,7 @@
         margin-right: 10vw;
     }
     .title {
+        display: flex;
         border: solid 2px black;
         border-radius: 25px;
         padding: .5vw;
@@ -140,3 +180,47 @@
     .description {
         text-align: right;
     }
+
+/* media querie */
+@media only screen and (max-width: 768px) {
+    .resume {
+        border: solid .5px black;
+    }
+    .title {
+        border: solid .5px black;
+    }
+    .content {
+        border-bottom: none;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .title {
+        margin-left: 0vw;
+    }
+    .project-text {
+        margin-top: 1vw;
+        align-items: center;
+        margin-right: 0%;
+        margin-left: 35vw;
+        text-align: center;
+    }
+    .project-img {
+        width: 70vw;
+        height: 40vw;
+        background-color: #D57C3A;
+        margin-left: 15vw;
+    }
+    .hero-block {
+        display: none;
+    }
+    .hero {
+        width: 100vw;
+        margin-right: 3vw;
+    }
+    .description {
+        text-align: center;
+    }
+    #circularcursor {
+        display: none;
+    }
+  }
