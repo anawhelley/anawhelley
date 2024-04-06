@@ -198,17 +198,18 @@
         margin-left: 0vw;
     }
     .project-text {
-        margin-top: 1vw;
-        align-items: center;
-        margin-right: 0%;
-        margin-left: 35vw;
-        text-align: center;
+        display: none;
     }
     .project-img {
-        width: 70vw;
-        height: 40vw;
+        width: 95vw;
+        height: 50vw;
         background-color: #D57C3A;
-        margin-left: 15vw;
+    }
+    h2,h3 {
+        font-size: 18px;
+    }
+    .resume {
+        width: 22vw;
     }
     .hero-block {
         display: none;
