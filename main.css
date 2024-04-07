@@ -201,10 +201,12 @@
     #imgfour {
         background-image: url(img/designtimes.jpg);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
     }
     #imgfive {
-        background-image: url(img/poster1.jpg);
+        background-image: url(img/liveaid.png);
         background-position: center;
         background-size: cover;
     }
@@ -216,7 +218,9 @@
     #imgseven {
         background-image: url(img/book.png);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
     }
     #imgeight {
         background-image: url(img/finaltypes.jpg);
@@ -333,6 +337,7 @@
         width: 100vw;
         height: auto;
         justify-content: flex-end;
+        margin-bottom: 2vh;
     }
     .abouttext-inside {
         width: 50vw;
@@ -425,6 +430,78 @@
         background-position: top;
         background-size: contain;
         background-repeat: no-repeat;
+    }
+
+/*times*/
+    #times1 {
+        background-image: url(img/times/times1.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    #times2 {
+        background-image: url(img/times/times2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #times3 {
+        background-image: url(img/times/times3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+/*live aid*/
+    #la1 {
+        background-image: url(img/posters/poster1.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    #la2 {
+        background-image: url(img/posters/poster2.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    #la3 {
+        background-image: url(img/posters/poster3.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+
+/*photo book*/
+    #photo1 {
+        background-image: url(img/photos/photo1.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    #photo2 {
+        background-image: url(img/photos/photo2.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    #photo3 {
+        background-image: url(img/photos/photo3.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    #photo4 {
+        background-image: url(img/photos/photo4.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
     }
 
 /*typeface*/
