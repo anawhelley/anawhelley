@@ -155,14 +155,9 @@
         width: 45vw;
         display: flex;
         height: 30vw;
-        background-color: brown;
+
         border-radius: 25px;
         margin-left: 3vw;
-    }
-    .project-img:hover {
-        -webkit-box-shadow: 6px 6px 0px 0px plum;
-        -moz-box-shadow: 6px 6px 0px 0px plum;
-        box-shadow: 6px 6px 0px 0px plum;
     }
     .project-text {
         display: flex;
@@ -194,9 +189,9 @@
         background-size: cover;
     }
     #imgtwo {
-        background-image: url(img/nsfp-home.png);
+        background-image: url(img/nsfphome.gif);
         background-position: center;
-        background-size: fit;
+        background-size: cover;
     }
     #imgthree {
         background-image: url(img/bc-home.png);
@@ -252,6 +247,8 @@
         width: 95vw;
         height: 50vw;
         background-color: #D57C3A;
+        margin-bottom: 2vh;
+        margin-left: 1.5vw;
     }
     h2,h3 {
         font-size: 18px;
@@ -274,6 +271,23 @@
     }
     #circularcursor {
         display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+/* media querie for second page*/
+    .hero-lower-small{
+        width: 100vw;
+        justify-content: space-evenly;
+        height: 5vh;
+    }
+    .about {
+        margin: 0px;
+        width: 20vw;
+        height: 5vh;
+        text-align: center;
+    }
+    .multiple {
+        flex-direction: column;
     }
   }
 
@@ -331,7 +345,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         width: 100vw;
-        height: 100vh;
+        height: fit-content;
         align-items: center;
     }
     .halfmobile {
@@ -345,6 +359,7 @@
         display: flex;
         align-self: center;
         border-radius: 25px;
+        margin-bottom: 2vh;
     }
     .footer {
         width: 100vw;
@@ -353,6 +368,11 @@
         display: flex;
         justify-content: center;
         align-content: center;
+    }
+    .halfweb {
+        display: flex;
+        width: 50vw;
+        height: 50vh;
     }
 
 /*fatcat*/
@@ -375,4 +395,60 @@
         background-image: url(img/fatcat/fatcat4.png);
         background-position: center;
         background-size: cover;
+    }
+
+/*nsfp*/
+    #nsfp1 {
+        background-image: url(img/nsfp/nsfp1.png);
+        background-position: center;
+        background-size: cover;
+    }
+    #nsfp2 {
+        background-image: url(img/nsfp/nsfp2.gif);
+        background-position: center;
+        background-size: cover;
+    }
+    #nsfp3 {
+        background-image: url(img/nsfp/nsfp3.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+/*bc*/
+    #bc1 {
+        background-image: url(img/bc/working\ copy.png);
+        background-position: top;
+        background-size: contain;
+    }
+    #bcweb {
+        background-image: url(img/bc/web.gif);
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+/*typeface*/
+    #typeface1 {
+        background-image: url(img/typeface/finaltypes3.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #typeface2 {
+        background-image: url(img/typeface/finaltypes2.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #type3-1 {
+        background-image: url(img/typeface/typenumbers.jpg);
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #type3-2 {
+        background-image: url(img/typeface/typedisplay2.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
