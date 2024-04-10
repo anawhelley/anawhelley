@@ -276,24 +276,14 @@
     #circularcursor {
         display: none;
     }
-}
-@media only screen and (max-width: 768px) {
-/* media querie for second page*/
-    .hero-lower-small{
-        width: 100vw;
-        justify-content: space-evenly;
-        height: 5vh;
-    }
     .about {
-        margin: 0px;
+        padding: 2vh;
         width: 20vw;
-        height: 5vh;
-        text-align: center;
+        border-radius: 0%;
     }
-    .multiple {
-        flex-direction: column;
-    }
-  }
+}
+
+
 
 
 
@@ -380,6 +370,60 @@
         height: 50vh;
     }
 
+
+    @media only screen and (max-width: 768px) {
+        #fatcat1 {
+            background-position: center;
+            background-size: contain;
+            background-color: black;
+            background-repeat: no-repeat;
+        }
+        #fatcat2 {
+            background-position: center;
+            background-size: contain;
+            background-color: black;
+            background-repeat: no-repeat;
+        }
+        #fatcat3 {
+            background-position: center;
+            background-size: contain;
+            background-color: black;
+            background-repeat: no-repeat;
+        }
+        #nsfp1 {
+            background-position: center;
+            background-size: contain;
+            background-color: black;
+            background-repeat: no-repeat;
+        }
+        #nsfp2 {
+            background-position: center;
+            background-size: contain;
+            background-color: black;
+            background-repeat: no-repeat;
+        }
+        #nsfp3 {
+            background-position: center;
+            background-size: contain;
+            background-color: black;
+            background-repeat: no-repeat;
+        }
+        #times2 {
+            background-image: url(img/times/times2.jpg);
+            background-position: center;
+            background-size: contain;
+            background-color: black;
+            background-repeat: no-repeat;
+        }
+        #times3 {
+            background-image: url(img/times/times3.jpg);
+            background-position: center;
+            background-size: contain;
+            background-color: black;
+            background-repeat: no-repeat;
+        }
+    }
+
 /*fatcat*/
     #fatcat1 {
         background-image: url(img/fatcat/factcat1.png);
@@ -417,19 +461,6 @@
         background-image: url(img/nsfp/nsfp3.png);
         background-position: center;
         background-size: cover;
-    }
-
-/*bc*/
-    #bc1 {
-        background-image: url(img/bc/working\ copy.png);
-        background-position: top;
-        background-size: contain;
-    }
-    #bcweb {
-        background-image: url(img/bc/);
-        background-position: top;
-        background-size: contain;
-        background-repeat: no-repeat;
     }
 
 /*times*/
