@@ -191,7 +191,9 @@
     #imgtwo {
         background-image: url(img/nsfphome.gif);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
     }
     #imgthree {
         background-image: url(img/bc-home.png);
@@ -370,8 +372,8 @@
         height: 50vh;
     }
 
-
-    @media only screen and (max-width: 768px) {
+/*
+    @media (max-width: 35rem) {
         #fatcat1 {
             background-position: center;
             background-size: contain;
@@ -423,44 +425,59 @@
             background-repeat: no-repeat;
         }
     }
+fatcat*/
 
 /*fatcat*/
     #fatcat1 {
         background-image: url(img/fatcat/factcat1.png);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
     }
     #fatcat2 {
         background-image: url(img/fatcat/fatcat-icon.jpg);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
     }
     #fatcat3 {
         background-image: url(img/fatcat/fatcat-type.jpg);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+
     }
     #fatcat4 {
         background-image: url(img/fatcat/fatcat4.png);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
     }
 
 /*nsfp*/
     #nsfp1 {
         background-image: url(img/nsfp/nsfp1.png);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
     }
     #nsfp2 {
         background-image: url(img/nsfp/nsfp2.gif);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
     }
     #nsfp3 {
         background-image: url(img/nsfp/nsfp3.png);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
     }
 
 /*times*/
